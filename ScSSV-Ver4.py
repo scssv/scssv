@@ -203,11 +203,11 @@ if status == "Visualisation":
         # days = form2.slider("Choose Forecasting Horizon", 1, 300,300)
      
             
-        buttonselect_dulang = form2.form_submit_button("Display 300 Days")
+        buttonselect_dulang = form2.form_submit_button("Display the first 30 Days")
         
     
         if buttonselect_dulang:
-            days = 300
+            days = 30
             if choose:
                 form2.write(f"You have selected: {wellnameselect} and forecasting horizon {days} days")
             
