@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
-import openpyxl
-import plotly.figure_factory as ff
+# import openpyxl
+# import plotly.figure_factory as ff
 import os
 # from tqdm import tqdm  # progress bar is activated when there is a loop
 # from tqdm import tqdm_gui
